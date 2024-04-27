@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Product Listing Web Application</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav class="navbar">
+    <div class="container">
+      <h1 class="navbar-brand"><b>Product Listing Page</b></h1>
+    </div>
+  
+  <div class="container">
+    <div class="select-input">
+      <select id="category-select">
+        <option value=""></option>
+      </select>
+    </div>
+    <div class="text-input">
+      <input type="text" id="search-input" placeholder="Search products...">
+    </div>
+    <div class="sort-input">
+      <select id="sort-select">
+        <option value="">Sort by Price</option>
+        <option value="asc">Price: Low to High</option>
+        <option value="desc">Price: High to Low</option>
+      </select>
+    </div>
+</nav>
+    <div id="product-listing" class="product-listing">
+      <div id="product-grid" class="product-grid"></div>
+    </div>
+  </div>
+  <script src="script.js" defer></script>
+</body>
+</html>
